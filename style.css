@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.wrapper {
+    background-color: rgba(223, 221, 221, 0.753);
+    color: #201f1f;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1px;
+    line-height: 1.6em;
+}
+
+.name {
+    background-color: rgb(93, 93, 255);
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    color: black;
+    width: 100%;
+}
+
+.name .top {
+  
+    font-size: 35px;
+}
+
+.name .bottom {
+    font-size: 20px;
+    padding: 15px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: lowercase;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    margin-left: 40px;
+    width: 80%;
+}
+
+.heading {
+    padding: 5px;
+    color: #333;
+    font-size: 16px;
+    margin-top: 18px;
+    border-top:0.9px soild rgb(190, 180, 180); 
+    border-bottom: 1px solid #ccc;
+}
+
+.profile-body {
+    margin-left: 22px;
+    text-align: left;
+    display: inline-flex;
+}
+
+.skills-body {
+    margin-left: 40px;
+    text-align: left;
+    flex-direction: column;
+    list-style: square;
+}
+
+.list {
+    margin-left: 40px;
+    text-align: left;
+    flex-direction: row;
+    list-style: square;
+}
+
+.work {
+    margin-left: 22px;
+    text-align: left;
+}
+.work-dem {
+    margin: 8px;
+    text-align: left;
+   
+}
+
+.work-body {
+    margin-left: 40px;
+    text-align: left; 
+    flex-direction: row;
+    list-style: square;
+}
+
+.certs-body {
+    margin-left: 40px;
+    text-align: left;
+    list-style: square;
+}
+
+.int-body {
+    margin-left: 40px;
+    text-align: left;
+    list-style: square;
+}
+
+.foot {
+    margin-bottom: 40px;
+    text-align: left;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
